@@ -98,7 +98,7 @@ void main() {
   // by AT
 
   // Personal block: first line printed
-  print('Reg no: $regNo | D = $d | T = $t');
+  print('Reg no: $regNo | D=$d | T=$t');
 
   // main 1: PIN checks ('4821D' uses my D)
   print("isValidPin('12345') = ${isValidPin('12345')}");
