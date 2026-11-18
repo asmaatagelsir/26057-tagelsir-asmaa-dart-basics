@@ -70,16 +70,16 @@ void main() {
   // by AT
 
   // Personal block: first line printed
-  print('Reg no: $regNo | D = $d | T = $t');
+  print('Reg no: $regNo | D=$d | T=$t');
 
   // B2: call with my full name
   String name = 'Asmaa Tagelsir';
   print('$name has ${countVowels(name)} vowels');
 
-  // B3: my name, extra spaces, spaces only
+  // B3: my name, extra spaces, empty string
   print(initials(name));
-  print(initials(' ana uwase '));
-  print(initials(' '));
+  print(initials('  ana   uwase  '));
+  print(initials(''));
 
   // C5: height D + 3, then 0 and -2 (these two print nothing)
   drawTriangle(d + 3);
